@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1927CAB91E0760C70030E8AE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927CAB81E0760C70030E8AE /* SettingsViewController.swift */; };
 		19B272771E0343C900D92944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B272761E0343C900D92944 /* AppDelegate.swift */; };
 		19B272791E0343C900D92944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B272781E0343C900D92944 /* ViewController.swift */; };
 		19B2727C1E0343C900D92944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B2727A1E0343C900D92944 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1927CAB81E0760C70030E8AE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		19B272731E0343C900D92944 /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B272761E0343C900D92944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B272781E0343C900D92944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		19B272751E0343C900D92944 /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1927CAB81E0760C70030E8AE /* SettingsViewController.swift */,
 				19B272761E0343C900D92944 /* AppDelegate.swift */,
 				19B272781E0343C900D92944 /* ViewController.swift */,
 				19B2727A1E0343C900D92944 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				19B272791E0343C900D92944 /* ViewController.swift in Sources */,
 				19B272771E0343C900D92944 /* AppDelegate.swift in Sources */,
+				1927CAB91E0760C70030E8AE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				19B2729D1E0343C900D92944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19B2729E1E0343C900D92944 /* Build configuration list for PBXNativeTarget "Tip CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				19B272A01E0343C900D92944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19B272A11E0343C900D92944 /* Build configuration list for PBXNativeTarget "Tip CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				19B272A31E0343C900D92944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
