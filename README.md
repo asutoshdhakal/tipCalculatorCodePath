@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-(tipCalculatorFinal.gif)
+![Video Walkthrough](tipCalculatorFinal.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
